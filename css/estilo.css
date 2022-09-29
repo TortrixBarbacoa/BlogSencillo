@@ -2,7 +2,7 @@
 
 h1{
     font-family: "Reem Kufi Ink";
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -13,9 +13,23 @@ h2{
 }
 
 h3{
-    font-family: "Lato";
+    font-family: "Poppins";
     font-size: 20px;
     font-weight: normal;
+}
+
+h4{
+    font-family: "Reem Kufi Ink";
+    font-size: 30px;
+}
+
+h5{
+    font-family: "Reem Kufi Ink";
+    font-size: 45px;
+}
+
+p{
+    font-family: "Lato";
 }
 
 /* ESTILO TIPOGRAFÍA DE TEXTO */
@@ -24,7 +38,7 @@ h3{
 
 #header{
     width: auto;
-    background-image: url(banner2.png);
+    background-image: url(images/banner2.png);
     background-size: 1920px 500px;
     color: white;
     height: 100%;
@@ -35,27 +49,24 @@ h3{
     padding-bottom: 150px;
     margin-bottom: 2px;
 }
-    
-#nav{
-    align-self: center;
-    background-color: black;
-    height: auto;
+
+#header2{
     width: auto;
+    background-color: black;
+    color: #66b933;
+    height: 500px;
     margin: 0%;
+    height: auto;
     text-align: center;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    position: sticky;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-bottom: 2px;
 }
 
-#nav li{
-    margin: 0%;
-    border: none;
+.custbar{
     color: #66b933;
-    list-style: none;
-    display: inline-block;
-    margin: 0px 20px;
 }
+
 
 #minidiv{
     width: auto;
@@ -68,8 +79,181 @@ h3{
     background-color: black;
 }
 
+.streamerBox{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.streamerBox2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.rubius{
+    border-radius: 5px;
+    background-position: center;
+    background-image: url(images/streamers/rubius.png);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 346.5px;
+    height: 370.26px;
+}
+
+.juan{
+    border-radius: 5px;
+    background-position: center;
+    background-image: url(images/streamers/juansguarnizo.png);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 346.5px;
+    height: 370.26px;
+}
+
+.ibai{
+    border-radius: 5px;
+    background-position: center;
+    background-image: url(images/streamers/ibai.png);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 346.5px;
+    height: 370.26px;
+}
+
+.mariana{
+    border-radius: 5px;
+    background-position: center;
+    background-image: url(images/streamers/elmariana.png);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 346.5px;
+    height: 370.26px;
+}
+
+.rivers{
+    border-radius: 5px;
+    background-position: center;
+    background-image: url(images/streamers/rivers.png);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 346.5px;
+    height: 370.26px;
+}
+
+.grefg{
+    border-radius: 5px;
+    background-image: url(images/streamers/thegrefg.png);
+    background-position: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 346.5px;
+    height: 370.26px;
+}
+
+.streamerInfo{
+    color: #66b933;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    width: 350px;
+}
+
+.streamerInfo li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divTitu{
+    height: auto;
+    width: 1000px;
+}
+
+.center {
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+  }
+
+.infor {
+    margin-top: 25px;
+    border: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.infor2 {
+    margin-top: 25px;
+    border: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.fotico{
+    margin-top: 25px;
+    border: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.anim{
+    transition: transform .2s;
+}
+
+.anim:hover{
+    transform: scale(1.05);
+}
+
+.fotprod{
+    height: 300px;
+    background-color: white;
+}
+
+.infprod{
+    height: 300px;
+}
+
+.infprodin{
+    margin: left 20px; right: 20px;
+}
+
+.comprar{
+    background-color: #66b933;
+    border-radius: 7px;
+    border: solid;
+    border-color: #66b933;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.comprar:hover{
+    transition: .2s;
+    transform: scale(1.03);
+}
+
+.fotprod2{
+    height: 300px;
+    background-color: white;
+}
+
+.fotprod2:hover{
+    transition: .2s;
+    transform: scale(1.03);
+}
+
+a:link {    
+    background-color: transparent;
+    text-decoration: none;
+}
+
 /* ESTILO GENERAL */
-
-/* ESTILO DE ÍCONOS */
-
-/* ESTILO DE ÍCONOS */

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos de Cómputo</title>
+
+    <!--LINK BOOTSTRAP Y MDB-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--LINK BOOTSTRAP-->
+
+    <!--LINK DE TIPOGRAFÍAS-->
+    <link  rel='stylesheet' href='http://fonts.googleapis.com/css?family=Reem+Kufi+Ink&subset=latin,latin-ext'>
+    <link  rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext'>
+    <link  rel='stylesheet' href='http://fonts.googleapis.com/css?family=Poppins&subset=latin,latin-ext'>
+    <!--LINK DE TIPOGRAFÍAS-->
+
+    <!--LINK DE CSS-->
+    <link rel="stylesheet" href="D:\elian\Desktop\Archivos\Universidad\4to Semestre\Ingeniería de Software\BlogSencillo\css\estilo.css">
+    <!--LINK DE CSS-->
+
+    <!--LINK ÍCONOS-->
+    <script src="https://kit.fontawesome.com/87a0dc1d3c.js" crossorigin="anonymous"></script>    
+    <!--LINK ÍCONOS-->
+</head>
+<body id="body">
+    <!-- NAVBAR -->
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark"">
+            <a href="mainpage.html" class="navbar-brand" style="font-family: Reem Kufi Ink;">
+                Streaming Store
+            </a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link custbar" href="peri.html">Periféricos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link custbar" href="equipos.html">Equipos de Cómputo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- NAVBAR -->
+
+    <div id="minidiv"></div> <!-- DIVISIÓN DECORATIVA -->
+
+    <!-- BANNER -->
+    <header id="header2">   
+        <div class="banner animate__animated animate__fadeInRight">
+            <h1>Equipos de Cómputo</h1>
+            <i class="fa-solid fa-computer" style="color: #66b933; font-size: 200px; margin-top: 15px;"></i>
+        </div>
+    </header>
+    <!-- BANNER -->
+
+    <div id="minidiv"></div> <!-- DIVISIÓN DECORATIVA -->
+
+    <div class="divTitu center">
+        <h5 class="animate__animated animate__fadeInUp" style="color: #66b933; text-align: center; margin-top: 40px;">Productos Disponibles</h5>
+        <div id="minidiv" style="width: 1000px;"></div> <!-- DIVISIÓN DECORATIVA -->
+    </div> <!-- TÍTULO DE SECCIÓN -->
+
+    <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="row">
+            <div id="carousel1" data-bs-interval="5000" data-bs-ride="carousel" class="col-md-3 fotprod2 carousel slide" style="margin-left: 50px; margin-right: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/alien/aurora1.png" alt="">
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img src="images/alien/aurora2.png" alt="">
+                    </div>
+                </div>
+                <div class="infor2">
+                    <h4 style="color: #66b933;">Alienware Aurora R13</h4>
+                <p style="color: white; margin-top: 5px">Equipos de Escritorio</p>
+                </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel1"
+                    data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel1"
+                    data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+
+            <div id="carousel2" data-bs-interval="5000" data-bs-ride="carousel"class="col-md-3 fotprod2 carousel slide"style="margin-left: 50px; margin-right: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pred/pred1.png" alt="">
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img src="images/pred/pred2.png" alt="">
+                    </div>
+                </div>
+                <div class="infor2">
+                    <h4 style="color: #66b933;">Acer Predator Orion</h4>
+                <p style="color: white; margin-top: 5px">Equipos de Escritorio</p>
+                </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel2"
+                    data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel2"
+                    data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+
+            <div id="carousel3" data-bs-interval="5000" data-bs-ride="carousel"class="col-md-3 fotprod2 carousel slide"style="margin-left: 50px; margin-right: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/rog/rog1.png" alt="">
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img src="images/rog/rog2.png" alt="">
+                    </div>
+                </div>
+                <div class="infor2">
+                    <h4 style="color: #66b933;">ROG Strix G10K</h4>
+                <p style="color: white; margin-top: 5px">Equipos de Escritorio</p>
+                </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel3"
+                    data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel3"
+                    data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 170px; margin-bottom: 50px;">
+        <div class="row">
+            <div id="carousel4" data-bs-interval="5000" data-bs-ride="carousel" class="col-md-3 fotprod2 carousel slide" style="margin-left: 50px; margin-right: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/as/as1.png" alt="">
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img src="images/as/as2.png" alt="">
+                    </div>
+                </div>
+                <div class="infor2">
+                    <h4 style="color: #66b933;">ROG Strix G17</h4>
+                <p style="color: white; margin-top: 5px">Laptops</p>
+                </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel4"
+                    data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel4"
+                    data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+
+            <div id="carousel5" data-bs-interval="5000" data-bs-ride="carousel"class="col-md-3 fotprod2 carousel slide"style="margin-left: 50px; margin-right: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/g15/g152.png" alt="">
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img src="images/g15/g151.png" alt="">
+                    </div>
+                </div>
+                <div class="infor2">
+                    <h4 style="color: #66b933;">Dell G15</h4>
+                <p style="color: white; margin-top: 5px">Audífonos</p>
+                </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel5"
+                    data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel5"
+                    data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+
+            <div id="carousel6" data-bs-interval="5000" data-bs-ride="carousel"class="col-md-3 fotprod2 carousel slide"style="margin-left: 50px; margin-right: 50px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/nit/nitro1.png" alt="">
+                    </div>
+    
+                    <div class="carousel-item">
+                        <img src="images/nit/nitro2.png" alt="">
+                    </div>
+                </div>
+                <div class="infor2">
+                    <h4 style="color: #66b933;">Acer Nitro 5</h4>
+                <p style="color: white; margin-top: 5px">Laptops</p>
+                </div>
+                    <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel6"
+                    data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel6"
+                    data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true" style="color: black; font-size: 30px;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="minidiv" style="margin-bottom: 15px; margin-top: 170px;"></div> <!-- DIVISIÓN DECORATIVA -->
+
+    <div class="container-fluid row" style="height: 150px;text-align: center; width: auto;">
+        <div class="col">
+            <a href="https://www.facebook.com/people/Mailo-Morales/100010282577960/"><h4 style="margin-top: 50px; color: #66b933;">Facebook</h4></a>
+        </div>
+        <div class="col">
+            <a href="https://www.instagram.com/mailo_mo/"><h4 style="margin-top: 50px; color: #66b933;">Instagram</h4></a>
+        </div>
+        <div class="col">
+            <a href="#"><h4 style="margin-top: 50px; color: #66b933;">GitHub</h4></a>
+        </div>
+    
+    <p style="color: white; font-size: 10px; margin-top: 10px; margin-bottom: 10px;">Todos los Derechos Reservados. 2022. UVG SUR</p>
+    </div>
+    
+</body>
+</html>
